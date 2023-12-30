@@ -6,6 +6,13 @@ fn main() {
     println ("{}", y)
 }
 
+fn main() {
+    let x= string::from("EzSnippet"); 
+    let y = x;
+        // String value is not coppied in
+    println ("{}", x)
+    println ("{}", y)
+}
 
 
 
